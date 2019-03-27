@@ -34,9 +34,64 @@ html {
 }
 .hr__big {
   border: 2px solid rgb(26, 31, 54);
-  margin-bottom: 3px;
+  margin-bottom: 3px !important;
 }
 
 .hr__small {
   border: 1px solid rgb(26, 31, 54);
+}
+form,
+.page__description,
+.hr__big,
+.hr__small {
+  width: 90%;
+  margin: 0 auto;
+}
+fieldset {
+  border: none;
+  border-bottom: 2px solid rgb(26, 31, 54);
+}
+legend {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(26, 31, 54);
+  padding: 20px 5px;
+}
+label {
+  font-size: 18px;
+  color: rgb(103, 116, 177);
+  padding-bottom: 10px;
+}
+input,
+select {
+  height: 50px;
+  outline: none;
+  border: none;
+  background: rgb(233, 233, 233);
+  padding: 0 20px 0 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+input::placeholder {
+  text-align: right;
+  font-family: "Merriweather", serif;
+  color: rgb(163, 163, 163);
+}
+input:focus {
+  border: 2px solid rgb(103, 116, 177);
+}
+select {
+  color: rgb(163, 163, 163);
+}
+option {
+  color: rgb(163, 163, 163);
+  background: #fff;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+#zip {
+  width: 50%;
 }
