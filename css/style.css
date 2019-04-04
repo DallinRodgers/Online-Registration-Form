@@ -154,13 +154,13 @@ option {
   transition: border 0.5s;
   outline: none;
   resize: none;
+  padding: 15px;
 }
 .newsletter textarea:focus {
   border: 2px solid rgb(103, 116, 177);
 }
 .newsletter textarea::placeholder {
   font-size: 16px;
-  padding: 10px;
   font-family: "Merriweather", serif;
   color: rgb(163, 163, 163);
 }
